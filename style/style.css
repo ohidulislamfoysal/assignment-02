@@ -157,10 +157,23 @@ nav .menu a{
     padding-top: 40px;
     color: #ffffff;
 }
-.hero-container2 p{
+.c-p1{
     font-size: 1rem;
     font-weight: 400;
     padding-top: 8px;
+    color: rgba(255, 255, 255, 1);
+}
+.c-p2{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 20px;
+    
+    color: rgba(255, 255, 255, 1);
+}
+.c-p3{
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 16px;
     color: rgba(255, 255, 255, 1);
 }
 .btn-s{
@@ -179,6 +192,49 @@ nav .menu a{
 }
 .btn-s .spotify{
     color: #ffffff;
+}
+.pd-h1{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #00FF88;
+    vertical-align: middle;
+}
+#podcast{
+    background: #1A0B2E;
+}
+.podcast-container{
+    padding-top: 50px;
+    padding-bottom: 120px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.podcast-container hr{
+    border: 1px solid rgba(255, 255, 255, 1);
+    opacity: 0.1;
+
+}
+.podcast-achive{
+    padding-top: 80px;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+}
+.podcast-content{
+    padding-bottom: 80px;
+}
+.podcast-content h1{
+    font-size: 3rem;
+    font-weight: 800;
+    padding-top: 40px;
+    color: #ffffff;
+    padding-bottom: 16px;
+}
+.podcast-achive div{
+    align-items: center;
+    justify-content: center;
 }
 
 
