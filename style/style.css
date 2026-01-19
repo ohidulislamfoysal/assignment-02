@@ -34,7 +34,7 @@ nav .menu a{
     font-weight: 500;
     text-decoration: none;
 }
-.logo h1{
+.logo h1, #footer h1{
     font-size: 3rem;
     color: #ffffff;
 
@@ -219,7 +219,7 @@ nav .menu a{
     text-align: center;
     
 }
-.podcast-container hr{
+.podcast-container hr,.footer-container hr{
     border: 1px solid rgba(255, 255, 255, 1);
     opacity: 0.1;
 
@@ -384,6 +384,52 @@ nav .menu a{
 
 }
 
+#footer{
+    /* background: url(../assets/footer-bg.png); */
+    background: url(../assets/footer-bg.png) center center / cover no-repeat;
+    height: 421px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.footer-container{
+    max-width: 1200px;
+    top: 55%;
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.icone{
+    display: flex;
+    align-items: center;
+    padding: 2px 2px;
+    gap: 8px;
+}
+.icone img{
+    width: 24px;
+    height: 24px;
+}
+.copyright hr{
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+.icone span{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #D1CED5;
+}
+
 /* responsive small device */
 @media screen and (max-width: 576px){
     .menu,.btn{
@@ -448,5 +494,13 @@ nav .menu a{
     }
     .host-icone{
         justify-content: center;
+    }
+    .links{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 16px;
+    justify-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px; 
     }
 }
